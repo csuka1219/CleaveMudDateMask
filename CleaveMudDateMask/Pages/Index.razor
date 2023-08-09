@@ -1,0 +1,16 @@
+﻿@page "/"
+@using CleaveMudDateMask.Component
+
+<PageTitle>Index</PageTitle>
+
+<MudDateField id="date1Id" idp="date1Id" @bind-Date=date1></MudDateField>
+<MudText>value: @date1.ToString()</MudText>
+<MudDateField id="date2Id" idp="date2Id" @bind-Date=date2></MudDateField>
+<MudText>value: @date2.ToString()</MudText>
+
+
+
+@code{
+    DateTime? date1;
+    DateTime? date2;
+}
