@@ -21,7 +21,7 @@ namespace CleaveMudDateMask.Component
 
             /*If you add this line, you won't need to click outside the datepicker component's focus 
              in order to bind the value to the variable.*/
-            Mask = new DateMask("yyyy.MM.dd");
+            //Mask = new DateMask("yyyy.MM.dd");
         }
 
         protected override async Task OnAfterRenderAsync(bool firstRender)
